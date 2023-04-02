@@ -1,0 +1,18 @@
+.containerPagination {
+    background-color: aqua;
+}
+
+.pagination {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.pagination span {
+    font-size: 35px;
+    font-weight: 700;
+    cursor: pointer;
+    color: #233160;
+}

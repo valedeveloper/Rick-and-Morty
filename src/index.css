@@ -1,0 +1,49 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1,h3, span, p{
+  cursor: pointer;
+}
+
+.container::-webkit-scrollbar {
+  width: 8px;     /* Tamaño del scroll en vertical */
+  height: 8px;    /* Tamaño del scroll en horizontal */
+}
+.container::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+.container::-webkit-scrollbar-thumb:hover {
+  background:  #61dafb;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+.container::-webkit-scrollbar-thumb:active {
+  background-color: #61dafb;
+}
+/* Ponemos un color de fondo y redondeamos las esquinas del track */
+.container::-webkit-scrollbar-track {
+  background: #61dafb;
+  border-radius: 4px;
+}
+
+/* Cambiamos el fondo cuando esté en active o hover */
+.container::-webkit-scrollbar-track:hover,
+.container::-webkit-scrollbar-track:active {
+background: #d4d4d4;
+}

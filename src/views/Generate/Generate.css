@@ -1,0 +1,45 @@
+.containerGenerate {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+    height: 100%;
+    padding: 20px;
+}
+
+.btnGenerate {
+    font-size: 24px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width: 247px;
+    background-color: #96C96A;
+    padding: 10px;
+
+    -webkit-box-shadow: 6px 1px 20px 2px #233160;
+    box-shadow: 5px 3px 10px 2px #233160;
+}
+
+.btnGenerate:hover {
+    background-color: #233160;
+}
+
+.titleList {
+    color: white;
+    font-size: 30px;
+}
+
+.listCharactersGenerate {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 15px;
+    padding: 10px;
+}
+
+.textGenerate {
+    font-size: 30px;
+    font-weight: 700;
+    color: #233160;
+}
